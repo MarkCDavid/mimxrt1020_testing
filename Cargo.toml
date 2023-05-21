@@ -1,0 +1,17 @@
+[package]
+name = "mimxrt1020_blink"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+imxrt1020evk_fcb = { path = "imxrt1020evk_fcb" }
+imxrt-rt = "0.1.1"
+panic-halt = "0.2"
+
+[build-dependencies]
+imxrt-rt = "0.1"
+
+[profile.release]
+debug = true
