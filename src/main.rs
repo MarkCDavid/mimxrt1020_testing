@@ -49,6 +49,8 @@
 //     }
 // }
 
+// https://wiki.segger.com/i.MXRT1020
+
 #![no_main]
 #![no_std]
 
